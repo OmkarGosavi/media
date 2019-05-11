@@ -2,16 +2,25 @@
 <html lang='en'>
 
 <head>
-    <meta charset="utf-8" name="viewport" 
-        content= "width=device-width, initial-scale=1.0"> 
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='style.css' />
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script>
+    <script src="main.js"></script>
+  
 </head>
 
 <body>
     <div class="content-wrapper">
         <div class="banner-section ">
             <div class="container">
+                <div class="row">
+                    <div class="message-box-img-wrapper">
+                        <img src="asset/shape-2@3x.png">
+                    </div>
+                    <div class="message-box-text">My Email Sign In</div>
+                </div>
                 <div class='row'>
                     <div class='column'>
                         <div class='text-wrapper'>
@@ -21,7 +30,7 @@
                         </div>
                         <div class="CTA-wapper">
                             <div class="btn-wrapper">
-                                <button>START NOW</button>
+                                <button id="myBtn">START NOW</button>
                             </div>
 
                             <div class="CTA-text">
@@ -86,7 +95,7 @@
                 </div>
                 <div class='row content-row'>
 
-                    <div class='double-column'>
+                    <div class='double-column order-2'>
                         <div class='text-wrapper left'>
                             <h2>One Tab, Multiple Inboxes</h2>
                             <p>Who knew keeping all your eggs in one basket could be a good thing! Be it your
@@ -117,7 +126,7 @@
 
                         <div class="image-conatiner left">
                             <img class="shape" src="asset/shape-4.png">
-                            <img class="shape-content" src="asset/shape-8@3x.png">
+                            <img class="shape-content t-38" src="asset/shape-8@3x.png">
 
                         </div>
 
@@ -253,17 +262,59 @@
             <div class="container">
                 <div class="row">
                     <div class="link-wrapper">
-                            <a href="#">Privacy Policy </a>   
-                            <a href="#"> EULA </a> 
-                            <a href="#">Endorsement Disclaimer and DMCA Policy</a>     
-                            <a href="#"> Contact Us</a>   
-                            <a href="#">Uninstall</a> 
-                    </div>                          
+                        <a href="#">Privacy Policy </a>
+                        <a href="#"> EULA </a>
+                        <a href="#">Endorsement Disclaimer and DMCA Policy</a>
+                        <a href="#"> Contact Us</a>
+                        <a href="#">Uninstall</a>
+                    </div>
                 </div>
             </div>
 
         </div>
     </div>
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Some text in the Modal..</p>
+        </div>
+
+    </div>
+
 </body>
+<p id="demo"></p>
+
+<script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal 
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+
+
+</script>
 
 </html>

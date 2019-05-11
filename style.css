@@ -1,3 +1,8 @@
+body {
+    background: #f3f0f0;
+
+}
+
 .content-wrapper {
     width: 1440px;
     background: #ffffff;
@@ -22,24 +27,61 @@
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
-    flex: 1;
+
 }
+
 
 .double-column {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
-    flex: 2;
+
+}
+
+
+
+@media screen and (min-width: 800px) {
+    .column {
+        flex: 1
+    }
+
+    .double-column {
+        flex: 2
+    }
 }
 
 /* .banner-section */
 .banner-section {
     background: url("../media/asset/rectangle-8@3x.png");
     height: 850px;
-    background-size: contain;
+    background-size: cover;
+    padding: 50px 0 0 0;
 }
 
-.banner-section .text-wrapper {}
+.banner-section .message-box-img-wrapper {
+    width: 53px;
+    height: 46px;
+}
+
+.banner-section .message-box-text {
+    width: 87px;
+    height: 44px;
+    object-fit: contain;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.banner-section .message-box-img-wrapper img {
+    width: 100%;
+}
 
 .banner-section .text-wrapper h1 {
     position: relative;
@@ -160,12 +202,14 @@
 /* featured-list-section */
 .featured-list-section {
     position: relative;
-    margin:77px 0px 145px 0px;
+    margin: 77px 0px 145px 0px;
 }
+
 .featured-list-section .content-row {
     padding: 77px 0px;
     padding-bottom: 115px;
 }
+
 .featured-list-section .text-wrapper h2 {
 
     font-family: Raleway;
@@ -197,17 +241,22 @@
     margin-left: 69px;
     position: relative;
 }
-.featured-list-section .image-conatiner.left .shape{
+
+.featured-list-section .image-conatiner.left .shape {
     position: absolute;
     left: 0
 }
-.featured-list-section .image-conatiner.left .shape-content{
+
+.featured-list-section .image-conatiner.left .shape-content {
     position: absolute;
     width: 168px;
     left: 46px;
     top: 68px;
 }
 
+.featured-list-section .image-conatiner.left .shape-content.t-38 {
+    top: 38px;
+}
 
 .featured-list-section .image-conatiner.right {
     width: 233px;
@@ -215,11 +264,13 @@
     position: relative;
 
 }
-.featured-list-section .image-conatiner.right .shape{
+
+.featured-list-section .image-conatiner.right .shape {
     position: absolute;
     right: 0
 }
-.featured-list-section .image-conatiner.right .shape-content{
+
+.featured-list-section .image-conatiner.right .shape-content {
     position: absolute;
     width: 168px;
     left: 46px;
@@ -264,14 +315,16 @@
     text-align: center;
     margin: auto;
 }
-.hr-line-left{
+
+.hr-line-left {
     width: 1034px;
     height: 1px;
     background-color: #cbd1e3;
     position: absolute;
     left: 0;
 }
-.hr-line-left .number{
+
+.hr-line-left .number {
     width: 92px;
     height: 54px;
     object-fit: contain;
@@ -289,14 +342,16 @@
     left: 115px;
     top: -62px;
 }
-.hr-line-right{
+
+.hr-line-right {
     width: 1034px;
     height: 1px;
     background-color: #cbd1e3;
     position: absolute;
     right: 0;
 }
-.hr-line-right .number{
+
+.hr-line-right .number {
     width: 92px;
     height: 54px;
     object-fit: contain;
@@ -367,22 +422,26 @@
     margin: auto;
     position: relative;
 }
+
 .install-steps-section .column-contain-1 {
 
-    background-color:#116cb0;
-    
+    background-color: #116cb0;
+
 }
+
 .install-steps-section .column-contain-2 {
 
-    background-color:#0d59a6;
-    
+    background-color: #0d59a6;
+
 }
+
 .install-steps-section .column-contain-3 {
 
-    background-color:#083e98;
-    
+    background-color: #083e98;
+
 }
-.install-steps-section .number-box{
+
+.install-steps-section .number-box {
     width: 42px;
     height: 42px;
     font-family: Raleway;
@@ -401,9 +460,9 @@
     right: 0;
     margin: auto;
     top: 22px
-    
-} 
-.install-steps-section .number-box-text{
+}
+
+.install-steps-section .number-box-text {
     font-family: Raleway;
     font-size: 16px;
     font-weight: normal;
@@ -438,13 +497,15 @@
     top: 138px;
 
 }
-.install-steps-section{
+
+.install-steps-section {
     position: absolute;
     margin: auto;
     left: 0;
     right: 0;
     top: -60px
 }
+
 .install-steps-section .column-grid {
     width: 521px;
     display: flex;
@@ -534,7 +595,8 @@
 .description-text-section .text-wrapper .sub-text.who-it-for-list {
     margin: 20px 0;
 }
-.bottom-cta-setion h3{
+
+.bottom-cta-setion h3 {
     width: 658px;
     height: 70px;
     object-fit: contain;
@@ -547,12 +609,13 @@
     letter-spacing: normal;
     text-align: center;
     color: #083e98;
-    margin:auto;
+    margin: auto;
 }
 
 .bottom-cta-setion .CTA-wapper .btn-wrapper {
     text-align: center;
 }
+
 .bottom-cta-setion .CTA-wapper .btn-wrapper button {
     width: 298px;
     height: 78px;
@@ -572,17 +635,20 @@
     color: #ffffff;
     border: none;
     text-align: center;
-    margin:50px auto;
+    margin: 50px auto;
 }
-.footer-section{
+
+.footer-section {
     text-align: center;
     padding: 10px 0px;
     border-top: solid 1px #33363b;
 }
-.footer-section .link-wrapper{
-     margin:auto
+
+.footer-section .link-wrapper {
+    margin: auto
 }
-.footer-section .link-wrapper a{
+
+.footer-section .link-wrapper a {
     height: 14px;
     object-fit: contain;
     font-family: Raleway;
@@ -595,14 +661,238 @@
     text-align: center;
     color: #33363b;
     padding: 0 20px;
-  
+
 }
-@media screen and (min-width: 800px) {
-    .column {
-      flex: 1
+@media screen and  (max-width:560) { 
+    .hr-line-left {
+        width: 33%;
     }
-  
-    .double-column {
-      flex: 2
+    .hr-line-left {
+        width: 33%;
     }
+}
+
+@media screen and (max-width: 800px) {
+    
+    body {
+        margin: 0
+    }
+
+    .content-wrapper {
+        width: 100%;
+        height: auto;
+    }
+    .banner-section .message-box-text{
+        font-size: 15px;
+    }
+
+    .banner-section .text-wrapper h1 {
+        width: 100%;
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+    .banner-section .text-wrapper .sub-text{
+        width: 100%;
+        margin:20px 0px;
+    }
+
+    .banner-section .text-wrapper h1::after {
+        bottom: 0;
+        height: 6px;
+    }
+
+    .banner-section .CTA-wapper .btn-wrapper button {
+        width: 171px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .banner-section .CTA-text p:nth-child(1) {
+        width: 100%;
+    }
+
+    .banner-section .CTA-text p:nth-child(2) {
+        width: 100%;
+    }
+
+    .banner-section {
+        height: auto;
+        padding: 30px;
+    }
+
+    .banner-section .image-container {
+        width: 243px;
+        height: 421px;
+        position: relative;
+        top: 167px;
+    }
+
+    .hr-line-left {
+        width: 35%;
+    }
+
+    .hr-line-right {
+        width: 35%;
+    }
+
+    .featured-list-section .image-conatiner.left {
+        margin: auto;
+    }
+
+    .featured-list-section .image-conatiner.right {
+        margin: auto;
+    }
+
+    .featured-list-section .text-wrapper.right {
+        width: auto;
+        margin: 30px;
+    }
+
+    .featured-list-section .text-wrapper.left {
+        width: auto;
+        margin: 30px;
+    }
+
+    .featured-list-section .content-row {
+        padding: 51px 0px;
+        padding-bottom: 25px;
+    }
+
+    .install-steps-section {
+        position: unset;
+    }
+
+    .order-2 {
+        order: 2;
+    }
+
+    .featured-list-section .CTA-wapper .btn-wrapper button {
+        width: 171px;
+        height: 40px;
+        font-size: 14px;
+        margin: 20px auto;
+
+    }
+
+    .description-text-section .content {
+        position: unset;
+        bottom: unset;
+    }
+
+    .description-text-section .inner-wrapper {
+        width: 100%;
+        margin: auto;
+    }
+    .description-text-section .text-wrapper h3{
+        font-size: 23px;
+    }
+
+    .install-steps-section .column-grid {
+        width: 90%;
+        display: flex;
+        justify-content: flex-start;
+        margin: auto;
+    }
+
+    .install-steps-section .number-box-text {
+        width: auto;
+        padding: 10px;
+        font-size: 11px;
+
+    }
+
+    .featured-list-section {
+        position: relative;
+        margin: 77px 0px 60px 0px;
+    }
+
+    .description-text-section .text-wrapper .sub-text {
+        height: unset;
+        width: unset;
+        margin: unset;
+    }
+
+    .bottom-cta-setion h3 {
+        width: auto;
+        margin: auto;
+        padding: 30px 30px;
+        font-size: 15px;
+    }
+
+    .bottom-cta-setion .CTA-wapper .btn-wrapper button {
+        width: 171px;
+        height: 40px;
+        font-size: 14px;
+        margin: 20px auto;
+    }
+
+    
+
+}
+
+
+
+/* modal */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+/* popup style for chrome */
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    body { background:red; } 
+   }
+   
+/* popup style for firefox */
+@-moz-document url-prefix() {
+    body {
+        background: yellow;
+    }
+}
+/* popup style for edge */
+@supports (-ms-ime-align:auto) {
+    body {
+        background: green;
+    }
+}
+
+/* popup style for safari */
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0){ 
+    body {
+        background: purple;
+    }
+
+}
