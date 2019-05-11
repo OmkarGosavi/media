@@ -574,3 +574,35 @@
     text-align: center;
     margin:50px auto;
 }
+.footer-section{
+    text-align: center;
+    padding: 10px 0px;
+    border-top: solid 1px #33363b;
+}
+.footer-section .link-wrapper{
+     margin:auto
+}
+.footer-section .link-wrapper a{
+    height: 14px;
+    object-fit: contain;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.86;
+    letter-spacing: normal;
+    text-align: center;
+    color: #33363b;
+    padding: 0 20px;
+  
+}
+@media screen and (min-width: 800px) {
+    .column {
+      flex: 1
+    }
+  
+    .double-column {
+      flex: 2
+    }
+  }
