@@ -1,0 +1,226 @@
+.content-wrapper {
+    width: 1440px;
+    background: #ffffff;
+    margin: 0 auto;
+
+}
+
+
+.container {
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+.double-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 2;
+  }
+/* .banner-section */
+.banner-section {
+    background: url("../media/asset/rectangle-8@3x.png");
+    height: 850px;
+    background-size: contain;
+}
+
+.banner-section .text-wrapper {}
+
+.banner-section .text-wrapper h1 {
+    position: relative;
+    width: 307px;
+    height: 98px;
+    object-fit: contain;
+    font-family: Raleway;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 100px;
+
+}
+
+.banner-section .text-wrapper h1::after {
+    content: "";
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    width: 87px;
+    height: 8px;
+    background-color: #ffffff;
+}
+
+.banner-section .text-wrapper .sub-text {
+    width: 294px;
+    height: 74px;
+    object-fit: contain;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin: 50px 0;
+}
+
+
+
+.banner-section .CTA-wapper  {
+    position: relative;
+}
+
+.banner-section .CTA-wapper .btn-wrapper button {
+    width: 298px;
+    height: 78px;
+    object-fit: contain;
+    border-radius: 5px;
+    box-shadow: 0 0 51px 0 rgba(8, 62, 152, 0.32);
+    background-color: #fc8f46;
+    object-fit: contain;
+    font-family: Raleway;
+    font-size: 29px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.12;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    border:none;
+    text-align: center
+}
+.banner-section .CTA-text p:nth-child(1){
+width: 447px;
+font-family: Raleway;
+font-size: 10px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.4;
+letter-spacing: normal;
+text-align: left;
+color: #ffffff;
+position: absolute;
+bottom: -60px;
+}
+.banner-section .CTA-text p:nth-child(2) {
+    width: 447px;
+    height: 25px;
+    object-fit: contain;
+    font-family: Raleway;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+ position: absolute;
+ bottom: -110px;
+
+    }
+.banner-section .image-container {
+    width: 493px;
+    height: 476px;
+}
+
+.banner-section .image-container img {
+    width: 100%;
+}
+
+
+
+/* .banner-section */
+/* featured-lis-section */
+
+.featured-list-section .text-wrapper h2{
+
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0a489d;
+    margin-top:0;
+}
+
+.featured-list-section .text-wrapper.left{
+    width: 369px;
+    margin-left: 120px;
+}
+.featured-list-section .text-wrapper.right{
+    width: 369px;
+    margin-left: 80px;
+}
+.featured-list-section .image-conatiner.left{
+    text-align: right;
+    width: 233px;
+    height: 202px;
+    margin-left: 69px;
+}
+.featured-list-section .image-conatiner.right{
+    width: 233px;
+    height: 202px;
+    
+}
+.featured-list-section .text-wrapper p{
+   
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #33363b;
+}
+
+.featured-list-section .CTA-wapper .btn-wrapper{
+    text-align: center;
+}
+.featured-list-section .CTA-wapper .btn-wrapper button {
+    width: 298px;
+    height: 78px;
+    object-fit: contain;
+    border-radius: 5px;
+    box-shadow: 0 0 51px 0 rgba(8, 62, 152, 0.32);
+    background-color: #fc8f46;
+    object-fit: contain;
+    font-family: Raleway;
+    font-size: 29px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.12;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    border:none;
+    text-align: center;
+    margin:auto;
+}
