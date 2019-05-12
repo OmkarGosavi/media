@@ -1,23 +1,35 @@
+<!--
+    
+    
+    NAME:OMKAR GOSAVI 
+CONTENT USED :HTML,CSS,JS,Jquery,Jquery.browser.js,Google font 
+
+
+-->
+
+
 <!DOCTYPE html>
 <html lang='en'>
 
 <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' href='style.css' />
+    <link rel='stylesheet' href='asset/css/style.css' />
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
-<script src="jquery-browser-plugin-master/dist/jquery.browser.js"></script>
+    <script src="asset/vendor/jquery.browser.min.js"></script>
     <script src="main.js"></script>
-  
+
 </head>
 
 <body>
     <div class="content-wrapper">
+
+        <!-- Banner-section -->
         <div class="banner-section ">
             <div class="container">
                 <div class="row">
                     <div class="message-box-img-wrapper">
-                        <img src="asset/shape-2@3x.png">
+                        <img src="asset/images/message.png" alt="message symbol">
                     </div>
                     <div class="message-box-text">My Email Sign In</div>
                 </div>
@@ -30,7 +42,7 @@
                         </div>
                         <div class="CTA-wapper">
                             <div class="btn-wrapper">
-                                <button id="myBtn">START NOW</button>
+                                <button id="ModalBtn">START NOW</button>
                             </div>
 
                             <div class="CTA-text">
@@ -52,7 +64,7 @@
                     <div class='column'>
                         <div class='green-column'>
                             <div class="image-container">
-                                <img src="asset/vector-smart-object@3x.png">
+                                <img src="asset/images/computer.png" alt="computer image">
 
                             </div>
                         </div>
@@ -60,7 +72,9 @@
                 </div>
             </div>
         </div>
+        <!-- Banner-section  end-->
 
+        <!-- Featured-list-section -->
         <div class="featured-list-section">
 
             <div class="container">
@@ -71,8 +85,8 @@
                     <div class='column'>
 
                         <div class="image-conatiner left">
-                            <img class="shape" src="asset/shape-4.png">
-                            <img class="shape-content" src="asset/shape-6@3x.png">
+                            <img class="shape" src="asset/images/shape.png" alt="shape background">
+                            <img class="shape-content" src="asset/images/inboxes.png" alt="Inboxes">
                         </div>
 
                     </div>
@@ -97,22 +111,19 @@
 
                     <div class='double-column order-2'>
                         <div class='text-wrapper left'>
-                            <h2>One Tab, Multiple Inboxes</h2>
-                            <p>Who knew keeping all your eggs in one basket could be a good thing! Be it your
-                                personal
-                                or professional or business inbox, access links to multiple accounts and make your
-                                work
-                                hassle-free. With the email tab, you can now access links to your email accounts,
-                                all
-                                from your New Tab.
+                            <h2>Save Time, Increase Productivity</h2>
+                            <p>Why waste time typing out the URL of your email website, when you can access it with a
+                                click?
+                                My Email Sign In lets you access links to your inboxes, so that you don’t have to type
+                                it out in the address bar every time you want to open your email accounts.
                             </p>
                         </div>
                     </div>
                     <div class='column'>
 
                         <div class="image-conatiner right">
-                            <img class="shape" src="asset/shape-4.png">
-                            <img class="shape-content" src="asset/shape-7@3x.png">
+                            <img class="shape" src="asset/images/shape.png" alt="shape background">
+                            <img class="shape-content" src="asset/images/productivity.png" alt="Productivity">
 
                         </div>
 
@@ -125,22 +136,19 @@
                     <div class='column'>
 
                         <div class="image-conatiner left">
-                            <img class="shape" src="asset/shape-4.png">
-                            <img class="shape-content t-38" src="asset/shape-8@3x.png">
+                            <img class="shape" src="asset/images/shape.png" alt="shape background">
+                            <img class="shape-content t-38" src="asset/images/email-providers.png" alt="Email Providers">
 
                         </div>
 
                     </div>
                     <div class='double-column'>
                         <div class='text-wrapper right '>
-                            <h2>One Tab, Multiple Inboxes</h2>
-                            <p>Who knew keeping all your eggs in one basket could be a good thing! Be it your
-                                personal
-                                or professional or business inbox, access links to multiple accounts and make your
-                                work
-                                hassle-free. With the email tab, you can now access links to your email accounts,
-                                all
-                                from your New Tab.
+                            <h2>Popular Email Providers</h2>
+                            <p>Every email provider has its own features and we understand you can’t let go off any. So
+                                we’ve made access to the popular email providers like Gmail™, AOL, Outlook™ easier than
+                                ever! Just add My Email Sign In and click on the links from your browser’s New Tab to
+                                get started.
                             </p>
                         </div>
                     </div>
@@ -157,7 +165,9 @@
             </div>
 
         </div>
+        <!-- Featured-list-section end-->
 
+        <!-- Description-text-section -->
         <div class="description-text-section banner-section">
             <div class="install-steps-section">
                 <div class="container">
@@ -242,6 +252,9 @@
 
             </div>
         </div>
+        <!-- Description-text-section END -->
+
+        <!-- Bottom-cta-setion -->
         <div class="bottom-cta-setion">
             <div class="container">
                 <div class="row">
@@ -258,6 +271,9 @@
             </div>
 
         </div>
+        <!-- Bottom-cta-setion end -->
+
+        <!-- Footer-section -->
         <div class="footer-section">
             <div class="container">
                 <div class="row">
@@ -272,8 +288,11 @@
             </div>
 
         </div>
+        <!-- Footer-section end -->
+
     </div>
-    <div id="myModal" class="modal">
+    <!-- Modal popup -->
+    <div id="Modal" class="modal">
 
         <!-- Modal content -->
         <div class="modal-content">
@@ -282,39 +301,9 @@
         </div>
 
     </div>
+    <!-- Modal popup end -->
+
 
 </body>
-<p id="demo"></p>
-
-<script>
-    // Get the modal
-    var modal = document.getElementById('myModal');
-
-    // Get the button that opens the modal
-    var btn = document.getElementById("myBtn");
-
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-
-    // When the user clicks the button, open the modal 
-    btn.onclick = function () {
-        modal.style.display = "block";
-    }
-
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function () {
-        modal.style.display = "none";
-    }
-
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function (event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
-
-
-
-</script>
 
 </html>
