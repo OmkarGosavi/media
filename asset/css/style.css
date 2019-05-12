@@ -469,17 +469,7 @@
     transform: rotate(45deg);
     z-index: 99;
 }
-.column-contain.column-contain-3:after {
-    width: 30px;
-    height: 30px;
-    background: #083e98;
-    content: "";
-    position: absolute;
-    right: -13px;
-    top: 46px;
-    transform: rotate(45deg);
-    z-index: 99;
-}
+
  .install-steps-section .number-box {
      width: 42px;
      height: 42px;
@@ -596,7 +586,7 @@
 
  .description-text-section .content {
      position: absolute;
-     bottom: 150px;
+     bottom: 223px;
  }
 
  .description-text-section .inner-wrapper {
@@ -934,3 +924,36 @@
      text-decoration: none;
      cursor: pointer;
  }
+ .chrome-style{
+    position :fixed;
+    top: 0;
+    right: 0;
+ }
+ .safari-style{
+    position :fixed;
+    top: 0;
+    right: 0;
+}
+.firefox-style{
+    position :fixed;
+    top: 0;
+    left: 0;
+}
+.edge-style{
+    position :fixed;
+    left:0 ;
+    right:0;
+    bottom: 0;
+    margin: 0 auto;
+
+}
+ 
+.other-style{
+    position :fixed;
+    left:0 ;
+    right:0;
+    top:0;
+    bottom: 0;
+    margin:auto;
+    height: 15%;
+}
