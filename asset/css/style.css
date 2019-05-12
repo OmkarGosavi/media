@@ -68,9 +68,8 @@
  }
 
  .banner-section .message-box-text {
-     width: 87px;
-     height: 44px;
-     object-fit: contain;
+     width: 95px;
+     height: 44px;    
      font-family: Raleway;
      font-size: 20px;
      font-weight: bold;
@@ -90,8 +89,7 @@
  .banner-section .text-wrapper h1 {
      position: relative;
      width: 307px;
-     height: 98px;
-     object-fit: contain;
+     height: 98px;    
      font-family: Raleway;
      font-size: 45px;
      font-weight: bold;
@@ -117,8 +115,7 @@
 
  .banner-section .text-wrapper .sub-text {
      width: 294px;
-     height: 74px;
-     object-fit: contain;
+     height: 74px;    
      font-family: Raleway;
      font-size: 18px;
      font-weight: normal;
@@ -137,12 +134,10 @@
 
  .banner-section .CTA-wapper .btn-wrapper button {
      width: 298px;
-     height: 78px;
-     object-fit: contain;
+     height: 78px;    
      border-radius: 5px;
      box-shadow: 0 0 51px 0 rgba(8, 62, 152, 0.32);
-     background-color: #fc8f46;
-     object-fit: contain;
+     background-color: #fc8f46;    
      font-family: Raleway;
      font-size: 29px;
      font-weight: bold;
@@ -157,7 +152,10 @@
  }
 
  .banner-section .CTA-wapper .btn-wrapper button:hover {
-     cursor: pointer;
+    cursor: pointer;
+    background: #ffff;
+    transition: all 0.5s;
+    color: #000;
  }
 
  .banner-section .CTA-text p:nth-child(1) {
@@ -177,8 +175,7 @@
 
  .banner-section .CTA-text p:nth-child(2) {
      width: 447px;
-     height: 25px;
-     object-fit: contain;
+     height: 25px;   
      font-family: Raleway;
      font-size: 10px;
      font-weight: normal;
@@ -304,11 +301,11 @@
  .featured-list-section .CTA-wapper .btn-wrapper button {
      width: 298px;
      height: 78px;
-     object-fit: contain;
+    
      border-radius: 5px;
      box-shadow: 0 0 51px 0 rgba(8, 62, 152, 0.32);
      background-color: #fc8f46;
-     object-fit: contain;
+    
      font-family: Raleway;
      font-size: 29px;
      font-weight: bold;
@@ -334,7 +331,7 @@
  .hr-line-left .number {
      width: 92px;
      height: 54px;
-     object-fit: contain;
+    
      font-family: Raleway;
      font-size: 88.5px;
      font-weight: bold;
@@ -360,8 +357,7 @@
 
  .hr-line-right .number {
      width: 92px;
-     height: 54px;
-     object-fit: contain;
+     height: 54px;    
      font-family: Raleway;
      font-size: 88.5px;
      font-weight: bold;
@@ -383,7 +379,7 @@
  .install-steps-section .inner-wrapper {
      width: 800px;
      height: 479px;
-     object-fit: contain;
+    
      border-radius: 20px;
      box-shadow: 1.8px 14.9px 24px 0 rgba(20, 20, 20, 0.23);
      background-image: linear-gradient(121deg, #32c2f1, #81f9d0);
@@ -396,8 +392,7 @@
  .install-steps-section .inner-wrapper h2 {
      position: relative;
      width: 198px;
-     height: 29px;
-     object-fit: contain;
+     height: 29px;    
      font-family: Raleway;
      font-size: 30px;
      font-weight: bold;
@@ -425,7 +420,7 @@
  .install-steps-section .inner-wrapper .column-contain {
      width: 177px;
      height: 186px;
-     object-fit: contain;
+    
      margin: auto;
      position: relative;
  }
@@ -553,12 +548,10 @@
 
  .install-steps-section .CTA-wapper .btn-wrapper button {
      width: 298px;
-     height: 78px;
-     object-fit: contain;
+     height: 78px;    
      border-radius: 5px;
      box-shadow: 0 0 51px 0 rgba(8, 62, 152, 0.32);
-     background-color: #ffffff;
-     object-fit: contain;
+     background-color: #ffffff;    
      font-family: Raleway;
      font-size: 29px;
      font-weight: bold;
@@ -596,8 +589,7 @@
 
  .description-text-section .text-wrapper h3 {
      width: 261px;
-     height: 29px;
-     object-fit: contain;
+     height: 29px;    
      font-family: Raleway;
      font-size: 30px;
      font-weight: bold;
@@ -611,8 +603,7 @@
 
  .description-text-section .text-wrapper .sub-text {
      width: 727px;
-     height: 40px;
-     object-fit: contain;
+     height: 40px;    
      font-family: Raleway;
      font-size: 15px;
      font-weight: normal;
@@ -633,9 +624,7 @@
  /* bottom-cta-setion */
 
  .bottom-cta-setion h3 {
-     width: 658px;
-     height: 70px;
-     object-fit: contain;
+     width: 658px;   
      font-family: Raleway;
      font-size: 30px;
      font-weight: bold;
@@ -654,12 +643,10 @@
 
  .bottom-cta-setion .CTA-wapper .btn-wrapper button {
      width: 298px;
-     height: 78px;
-     object-fit: contain;
+     height: 78px;   
      border-radius: 5px;
      box-shadow: 0 0 51px 0 rgba(8, 62, 152, 0.32);
-     background-color: #fc8f46;
-     object-fit: contain;
+     background-color: #fc8f46;   
      font-family: Raleway;
      font-size: 29px;
      font-weight: bold;
@@ -689,8 +676,7 @@
  }
 
  .footer-section .link-wrapper a {
-     height: 14px;
-     object-fit: contain;
+     height: 14px;   
      font-family: Raleway;
      font-size: 14px;
      font-weight: normal;
